@@ -1,4 +1,6 @@
+export {};
 class Employee{
+
     constructor(private x?:number,private y?: number)
     {}
     //property
@@ -16,3 +18,8 @@ class Employee{
         this.x = value;
     }
 }
+
+let p = new Employee();
+let X= p.X;
+p.X = 15;
+console.log(p.X);
